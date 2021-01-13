@@ -1,0 +1,105 @@
+.trending {
+  margin: 11% 15%;
+  &__graphics-top {
+    position: absolute;
+    left: -8.7rem;
+    top: -9rem;
+  }
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__heading-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__heading-recipe {
+    font-family: Courgette;
+    font-weight: normal;
+    font-size: 2.25rem;
+  }
+  &__details {
+    width: 56%;
+    font-family: Barlow;
+    font-size: 1rem;
+    line-height: 162%;
+    color: #353535;
+    text-align: center;
+  }
+  &__content {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  &__image-text {
+    width: 30%;
+  }
+  &__images {
+    position: relative;
+  }
+  &__content-images {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  &__content-chefs {
+    border-radius: 50%;
+    position: absolute;
+    top: 242px;
+    left: 34px;
+  }
+  &__content-text {
+    text-align: center;
+    padding: 1.56rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Rubik;
+    background-color: #ffe8e2;
+  }
+  &__meal {
+    font-size: 1.2rem;
+    line-height: 1.4px;
+    color: #ff7d5f;
+    margin-bottom: 1rem;
+  }
+  &__meal-details {
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+  }
+  &__meal-recipe {
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 162%;
+    color: #666666;
+  }
+  &__recipe-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Rubik;
+    font-size: 0.5rem;
+    line-height: 186%;
+    text-transform: lowercase;
+    color: #666666;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    margin-right: 0.3rem;
+  }
+  &__graphics-bottom {
+    position: absolute;
+    right: -8.5rem;
+    z-index: -9;
+    bottom: -9rem;
+  }
+}

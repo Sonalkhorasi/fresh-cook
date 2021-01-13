@@ -1,0 +1,12 @@
+@import "./partials/resets";
+@import "./partials/header";
+@import "./partials/hero";
+@import "./partials/about";
+@import "./partials/blog";
+@import "./partials/categories";
+@import "./partials/trending";
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Rubik";
+}

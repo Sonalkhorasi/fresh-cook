@@ -1,0 +1,57 @@
+.header {
+  background: #000000 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 18px;
+    width: 504px;
+    text-transform: uppercase;
+    &-link {
+      color: #ffffff;
+      &--active {
+        color: #ff7d5f;
+      }
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__icon {
+    display: flex;
+    justify-content: space-evenly;
+    height: 20px;
+    width: 118px;
+    margin-right: 50px;
+    a {
+      color: #ffffff;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  &__add-recipe {
+    background-color: #ff7d5f;
+    color: #ffffff;
+    height: 50px;
+    width: 170px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    border: none;
+  }
+}

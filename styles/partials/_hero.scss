@@ -1,0 +1,107 @@
+.hero {
+  background-image: url(../../assets/images/veg.svg);
+  background-size: cover;
+  height: 760px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__card {
+    position: relative;
+    align-self: flex-start;
+    margin-left: 112px;
+    margin-bottom: 69px;
+    height: 400px;
+    width: 694px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 60px;
+  }
+  &__avatar {
+    height: 280px;
+    width: 280px;
+    border: 14px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -140px;
+    position: absolute;
+    &-image {
+      background-image: url(../../assets/images/beautiful-young-woman.svg);
+      background-size: cover;
+      height: 230px;
+      width: 230px;
+      border-radius: 50%;
+    }
+  }
+  &__review {
+    height: 45px;
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-left: 82px;
+  }
+  &__salad-button {
+    width: 105px;
+    height: 41px;
+    background-color: #ff7d5f;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    border: none;
+  }
+  &__author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__author-image {
+    border-radius: 50%;
+  }
+  &__author-name {
+    margin-left: 8px;
+  }
+  &__recipe-title {
+    color: #ff7d5f;
+    font-family: "Courgette";
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+    width: 468px;
+    font-style: italic;
+    text-transform: capitalize;
+  }
+  &__full-recipe {
+    width: 317px;
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #353535;
+  }
+  &__recipe-details {
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__detail-icon {
+    display: flex;
+    align-items: center;
+    width: 115px;
+    img {
+      margin-right: 6px;
+    }
+  }
+  &__ellipse {
+    align-self: center;
+  }
+}
