@@ -1,5 +1,5 @@
-.cuisines {
-  margin: 5% 15%;
+.chefs {
+  margin: 2% 15%;
   &__heading {
     display: flex;
     flex-direction: column;
@@ -23,31 +23,16 @@
     color: #353535;
     width: 50%;
   }
-  &__content {
+  &__images {
     margin-top: 1rem;
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
-  &__around-world {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  &__country-name {
-    font-family: Rubik;
-    font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 108%;
-    color: #ff7d5f;
-  }
-  &__food-details {
-    font-family: Barlow;
-    font-size: 0.7rem;
-    line-height: 162%;
-    color: #353535;
-  }
-  &__image {
-    margin-right: 1rem;
-    width: 30%;
+  &__pictures {
+    width: 32%;
+    &--border {
+      border: 2px solid #ff7d5f;
+    }
   }
 }

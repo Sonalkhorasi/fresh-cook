@@ -1,0 +1,151 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 2% 10%;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: " ";
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 155.5%;
+    padding: 61%;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.8);
+  }
+  &__image {
+    width: 11.5%;
+    transform: rotate(-90deg);
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+  }
+  &__location {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  &__logo {
+    width: 50%;
+    position: absolute;
+    top: -35px;
+  }
+  &__location-details {
+    font-family: Barlow;
+    font-size: 1rem;
+    line-height: 162%;
+    margin-top: 9%;
+    margin-bottom: 3%;
+  }
+  &__location-button {
+    background-color: #ff7d5f;
+    width: 45%;
+    height: 20%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 162%;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+  }
+  &__working-hours {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__working-hours-heading {
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 108%;
+    text-transform: uppercase;
+    color: #ff7d5f;
+  }
+  &__timings {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 209%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__timings-days {
+    color: #ff7d5f;
+    width: 24%;
+    text-align: right;
+    margin-right: 3px;
+  }
+  &__quick-links {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  &__links {
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 209%;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__links-heading {
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 108%;
+    text-transform: uppercase;
+    color: #ff7d5f;
+  }
+  &__contact-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__contact-heading {
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 108%;
+    text-transform: uppercase;
+    color: #ff7d5f;
+  }
+  &__address {
+    display: flex;
+  }
+  &__phone-no {
+    display: flex;
+    align-items: center;
+  }
+  &__details-title {
+    font-size: 0.7rem;
+    line-height: 206%;
+    text-transform: uppercase;
+    color: #ff7d5f;
+    margin-right: 1rem;
+  }
+  &__social-handles {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__icons {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 7px;
+  }
+  &__copy-right {
+    font-family: Poppins;
+    font-size: 1rem;
+    line-height: 162%;
+  }
+}

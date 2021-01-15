@@ -844,6 +844,384 @@ a {
   bottom: -9rem;
 }
 
+.cuisines {
+  margin: 5% 15%;
+}
+
+.cuisines__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cuisines__heading-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cuisines__title {
+  font-family: Courgette;
+  font-weight: normal;
+  font-size: 2.25rem;
+}
+
+.cuisines__details {
+  font-family: Barlow;
+  font-size: 1rem;
+  line-height: 162%;
+  text-align: center;
+  color: #353535;
+  width: 50%;
+}
+
+.cuisines__content {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cuisines__around-world {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cuisines__country-name {
+  font-family: Rubik;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 108%;
+  color: #ff7d5f;
+}
+
+.cuisines__food-details {
+  font-family: Barlow;
+  font-size: 0.7rem;
+  line-height: 162%;
+  color: #353535;
+}
+
+.cuisines__image {
+  margin-right: 1rem;
+  width: 30%;
+}
+
+.chefs {
+  margin: 2% 15%;
+}
+
+.chefs__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chefs__heading-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chefs__title {
+  font-family: Courgette;
+  font-weight: normal;
+  font-size: 2.25rem;
+}
+
+.chefs__details {
+  font-family: Barlow;
+  font-size: 1rem;
+  line-height: 162%;
+  text-align: center;
+  color: #353535;
+  width: 50%;
+}
+
+.chefs__images {
+  margin-top: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chefs__pictures {
+  width: 32%;
+}
+
+.chefs__pictures--border {
+  border: 2px solid #ff7d5f;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 2% 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: " ";
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 155.5%;
+  padding: 61%;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.8);
+}
+
+.footer__image {
+  width: 11.5%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+.footer__location {
+  width: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.footer__logo {
+  width: 50%;
+  position: absolute;
+  top: -35px;
+}
+
+.footer__location-details {
+  font-family: Barlow;
+  font-size: 1rem;
+  line-height: 162%;
+  margin-top: 9%;
+  margin-bottom: 3%;
+}
+
+.footer__location-button {
+  background-color: #ff7d5f;
+  width: 45%;
+  height: 20%;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 162%;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+}
+
+.footer__working-hours {
+  width: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__working-hours-heading {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: #ff7d5f;
+}
+
+.footer__timings {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 209%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer__timings-days {
+  color: #ff7d5f;
+  width: 24%;
+  text-align: right;
+  margin-right: 3px;
+}
+
+.footer__quick-links {
+  width: 16%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer__links {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 209%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__links-heading {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: #ff7d5f;
+}
+
+.footer__contact-info {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__contact-heading {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: #ff7d5f;
+}
+
+.footer__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__phone-no {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__details-title {
+  font-size: 0.7rem;
+  line-height: 206%;
+  text-transform: uppercase;
+  color: #ff7d5f;
+  margin-right: 1rem;
+}
+
+.footer__social-handles {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__icons {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 7px;
+}
+
+.footer__copy-right {
+  font-family: Poppins;
+  font-size: 1rem;
+  line-height: 162%;
+}
+
 body {
   width: 100vw;
   height: 100vh;
