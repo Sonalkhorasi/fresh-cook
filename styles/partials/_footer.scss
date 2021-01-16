@@ -4,7 +4,7 @@
   align-items: center;
   background-color: #000;
   color: #fff;
-  padding: 2% 10%;
+  padding: 15% 10% 2%;
   position: relative;
   overflow: hidden;
   &::before {
@@ -12,14 +12,9 @@
     background: #fff;
     border-radius: 50%;
     position: absolute;
-    bottom: 155.5%;
-    padding: 61%;
-    -webkit-transform: scale(1.5);
+    bottom: 200%;
+    padding: 72%;
     transform: scale(1.8);
-  }
-  &__image {
-    width: 11.5%;
-    transform: rotate(-90deg);
   }
   &__content {
     display: flex;

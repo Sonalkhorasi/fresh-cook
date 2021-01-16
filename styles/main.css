@@ -219,7 +219,6 @@ a {
   font-weight: 400;
   text-align: left;
   width: 468px;
-  font-style: italic;
   text-transform: capitalize;
 }
 
@@ -1007,7 +1006,7 @@ a {
           align-items: center;
   background-color: #000;
   color: #fff;
-  padding: 2% 10%;
+  padding: 15% 10% 2%;
   position: relative;
   overflow: hidden;
 }
@@ -1017,16 +1016,10 @@ a {
   background: #fff;
   border-radius: 50%;
   position: absolute;
-  bottom: 155.5%;
-  padding: 61%;
-  -webkit-transform: scale(1.5);
-  transform: scale(1.8);
-}
-
-.footer__image {
-  width: 11.5%;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  bottom: 200%;
+  padding: 72%;
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
 }
 
 .footer__content {
